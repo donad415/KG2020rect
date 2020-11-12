@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <AnchorPane fx:id="innerAnchorPane" layoutX="193.0" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: ffffff;" />
+        <Button fx:id="buttonClear" layoutX="57.0" layoutY="28.0" mnemonicParsing="false" text="Очистить">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+
+        <TextField fx:id="radius" layoutX="28.0" layoutY="90.0" promptText="Радиус скругления" text="30" />
+        <TextField fx:id="rectHeight" layoutX="28.0" layoutY="140.0" promptText="Высота" text="250" />
+        <TextField fx:id="rectWight" layoutX="28.0" layoutY="190.0" promptText="Ширина" text="200" />
+    </children>
+</AnchorPane>
